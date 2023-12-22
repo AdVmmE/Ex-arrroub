@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Best Tools</title>
+</head>
+<body>
+    <div class="container">
+        <table>
+     <form>   
+        <h1 class="h1-vote m-4">Questionnaire de vote</h1>
+        
+        <h2 class="m-4">1- Le meilluer Antivirus pour vous est:</h2>
+        <select class="form-select m-3" aria-label="Default select example">
+            <option selected>Avira Free Security</option>
+            <option value="1">zero</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+
+        <h2 class="m-4">2-Votre degre de satisfaction est :</h2> 
+          
+            
+        <input style="display: inline;" type="range" class="form-range" id="customRange1">
+        
+        
+        <h2 class="m-4">3-Avez-vous deja utilise un autre antivirus ?</h2>     
+       <div class="row"> 
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2">
+        <input type="radio" id="yes" name="previousAntivirus" value="yes" required>
+        <label for="yes">Oui</label>
+    </div>
+    <div class="col-sm-3">
+        <input type="radio" id="no" name="previousAntivirus" value="no" required>
+        <label for="no">Non</label>
+    </div>
+    </div>
+        <br>
+       <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-3">
+        <button class="btn btn-danger" type="submit">Envoyer</button>
+    </div>
+    <div class="col-sm-3">
+        <button type="reset" class="btn btn-info">Annuler</button>
+    </div> 
+    </div> 
+    </div> 
+    </form>
+    </div>
+
+</body>
+</html>
